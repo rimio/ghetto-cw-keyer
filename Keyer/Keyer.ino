@@ -70,8 +70,8 @@ static iambic_sym_t next = NONE;
 static unsigned int digits[2] = { 0, 0 };
 static unsigned int lastSeg = 0;
 
-static const unsigned int DISPLAY_TIMEOUT_MS = 2000;
-static unsigned int displayWaitForMs = 0;
+static const unsigned long DISPLAY_TIMEOUT_MS = 2000;
+static unsigned long displayWaitForMs = 0;
 
 // rotary state
 pin_state_t rotAState;
